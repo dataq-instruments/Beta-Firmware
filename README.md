@@ -14,7 +14,7 @@
 
 ![alt text](https://www.dataq.com/resources/repository/lmflash1.png)
 
-7/ Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device. 
+7. Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device. 
 
 ![alt text](https://www.dataq.com/resources/repository/lmflash2.png)
 
