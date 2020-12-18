@@ -1,5 +1,7 @@
 # Firmware_Upgrade
 
+**For DI-2xxx and 4xxx users: These firmware are for the latest rev of the device with standalone capability, for older ones without standalone capability, please go to https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption**
+
 1. Download the flash programmer installation program for Windows from https://www.ti.com/tool/LMFLASHPROGRAMMER and run it.
 
 2. Unplug the USB cable from your DI-???? device and remove power supply to the device if it gets power from external power supply
