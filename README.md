@@ -1,16 +1,18 @@
 # Firmware_Upgrade
 
-**For DI-2xxx and 4xxx users: These firmware are for the latest rev of the device with standalone capability, for older ones without standalone capability, please go to https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption**
+**For DI-2xxx and 4xxx users: These firmware are for the latest rev of the device with standalone capability**
 
-1. Download the flash programmer installation program for Windows from https://www.ti.com/tool/LMFLASHPROGRAMMER and run it.
+For older ones without standalone capability, please go to https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption
 
-2. Unplug the USB cable from your DI-???? device and remove power supply to the device if it gets power from external power supply
+1. Download and install the flash program for Windows from https://www.ti.com/tool/LMFLASHPROGRAMMER
 
-3. Plug the USB cable to PC
+2. Remove the USB cable from your device and PC, and remove power supply to the device if it gets power from external power supply
 
-4. For device without external power supply, plug in the USB cable to the device while holding the button down. The LED should be solid WHITE, if not repeat step 2.
+3. Plug the USB cable to PC (the other end should NOT connect to the device at this point)
 
-5. For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB to the device, if not repeat step 2. 
+4. For device without external power supply, plug in the USB cable to the device while holding the button down. The LED should be solid WHITE, if not go back to step 2.
+
+5. For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB cable to the device, if not go back to step 2. 
 
 6. Start LMFlash.exe program installed in step 1. The startup Page will be exactly as below. 
 
@@ -20,4 +22,4 @@
 
 ![alt text](https://www.dataq.com/resources/repository/lmflash2.png)
 
-8. Press the Program Button at the lower left corner. When it finishes, it should return to FLASHING Green or Yellow, based on the USB mode enabled.
+8. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green or Yellow, based on the USB mode enabled.
