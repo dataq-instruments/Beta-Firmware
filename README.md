@@ -22,4 +22,4 @@ For older ones without standalone capability, please go to https://github.com/da
 
 ![alt text](https://www.dataq.com/resources/repository/lmflash2.png)
 
-8. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green or Yellow, based on the USB mode enabled.
+8. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green (Windaq compatible, or LibUSB) or Yellow (Virtual COM port, or CDC), based on the USB mode enabled.
