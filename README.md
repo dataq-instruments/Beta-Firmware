@@ -1,6 +1,6 @@
 # Firmware_Upgrade
 
-**For DI-2xxx and 4xxx users: These firmware are for the latest rev of the device with standalone capability**
+**For DI-2108, DI-2108P, DI-4108 and DI-4208 users: These firmware are for the latest rev of the device with standalone capability**
 
 For older ones without standalone capability, please go to https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption
 
