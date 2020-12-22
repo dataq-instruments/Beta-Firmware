@@ -10,7 +10,9 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
 
 3. Plug the USB cable to PC (the other end should NOT connect to the device at this point)
 
-4. For device without external power supply, plug in the USB cable to the device while holding the button down. The LED should be solid WHITE, if not go back to step 2.
+4. Force the device into firmware upgrade mode...
+ - For device without external power supply, plug in the USB cable to the device while holding the button down. The LED should be solid WHITE, if not go back to step 2.
+ - For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB cable to the device, if not go back to step 2. 
 
 5. For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB cable to the device, if not go back to step 2. 
 
