@@ -14,12 +14,10 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
 
 5. For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB cable to the device, if not go back to step 2. 
 
-6. Start LMFlash.exe program installed in step 1. The startup Page will be exactly as below. 
-
+6. Start LMFlash.exe program installed in step 1. The startup Page will be exactly as below <br/>
 ![alt text](https://www.dataq.com/resources/repository/lmflash1.png)
 
-7. Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device. 
-
+7. Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device<br/>
 ![alt text](https://www.dataq.com/resources/repository/lmflash2.png)
 
 8. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green (Windaq compatible, or LibUSB) or Yellow (Virtual COM port, or CDC), based on the USB mode enabled.
