@@ -14,7 +14,7 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
    - For device without external power supply, plug in the USB cable to the device while holding the button down. The LED should be solid WHITE, if not go back to step 2.
    - For device with external power supply, such as DI-4718B and DI-4730, push and hold the button while powering up the device.  The LED should be solid WHITE, if so, connect the USB cable to the device, if not go back to step 2. 
 
-5. Start LMFlash.exe program installed in step 1. The startup Page will be exactly as below <br/>
+5. Start LMFlash.exe program installed in step 1. The startup page will be exactly as below <br/>
 ![alt text](https://www.dataq.com/resources/repository/lmflash1.png)
 
 6. Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device<br/>
