@@ -20,4 +20,8 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
 6. Choose the Program Tab. Navigate to your download directory, click on the appropriate bin file for your device<br/>
 ![alt text](https://www.dataq.com/resources/repository/lmflash2.png)
 
-7. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green (Windaq compatible, or LibUSB) or Yellow (Virtual COM port, or CDC), based on the USB mode enabled.
+7. Press the Program Button at the lower left corner. When it finishes, the device should be FLASHING Green (Windaq compatible, or LibUSB) or Yellow (Virtual COM port, or CDC), based on the USB mode enabled. If the device doesn't flash any of the above color, please make sure you use the matching firmware for your device and go back to step 2)
+
+8. Use Windaq softwar to confirm a channel is working as designed. If not, please make sure you use the matching firmware for your device and go back to step 2)
+   - If a non-standalone device uses a standalone firmware, it will hang in looking for the real time clock and the LED is solid white
+   - If A device use the firmware for B device, it will not have the correct gain/scale, or WinDaq won't run at all.
