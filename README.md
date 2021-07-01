@@ -25,3 +25,6 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
 8. Use Windaq softwar to confirm a channel is working as designed. If not, please make sure you use the matching firmware for your device and go back to step 2)
    - If a non-standalone device uses a standalone firmware, it will hang in looking for the real time clock and the LED is solid white
    - If A device use the firmware for B device, it will not have the correct gain/scale, or WinDaq won't run at all.
+   
+9. Starting firmware rev 1.35, you can use a file hex editor such as https://mh-nexus.de/en/hxd/， to look into the area starting from offset of 0x3F2 to find out the reason the file was closed, and offset of 0x43A to find out the reason the file was started, see example below <br/>
+![alt text](https://www.dataq.com/resources/repository/wdq_header.png)
