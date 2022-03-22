@@ -1,4 +1,4 @@
-# Firmware_Upgrade (rev 1.36 is released, rev 1.37 is beta)
+# Firmware_Upgrade 
 
 **For DI-2108, DI-2108P, DI-4108 and DI-4208 users: These firmware are for the latest rev of the device with standalone capability**
 
