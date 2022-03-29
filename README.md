@@ -33,9 +33,17 @@ Please note that if you extract part of the original file to a new file, the abo
 
 10. Firmware log
 
+   -1.35 vs 1.34
+
+    - Fixed leap year error in standalone mode
+
+    - Use D5 and D6 as flag in standalone trigger mode (except DI-4730): D5 is low when file is open, D6 is low when trigger is detected. D5 & D6 back to high when file is closed
+
    -1.36 vs 1.35
    
     - Longer USB wait time before switching to Ethernet
+
+    - Wait until power supply stable before recording in standalone
 
     - Fixed rate error in CDC mode
 
