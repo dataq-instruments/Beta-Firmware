@@ -32,12 +32,21 @@ For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, 
 Please note that if you extract part of the original file to a new file, the above info will not be saved to the new file
 
 10. Firmware log
+
    -1.36 vs 1.35
-   -- Longer USB wait time before switching to Ethernet
-   -- Fixed rate error in CDC mode
-   -- Fixed 2108P stand alone circular mode error
+   
+    - Longer USB wait time before switching to Ethernet
+
+    - Fixed rate error in CDC mode
+
+    - Fixed 2108P stand alone circular mode error
+
    -1.37 vs 1.36
-   -- Starts new files in standalone when buffer overran
-   -- Fixed timestamp error for 2108P
-   -- Fix sync error 
-   -- increase precision in ASCII output mode from .3e to .5e
+
+    - Starts new files in standalone when buffer overran
+
+    - Fixed timestamp error for 2108P
+
+    - Fix sync error 
+
+    - increase precision in ASCII output mode from .3e to .5e
