@@ -2,7 +2,7 @@
 
 ```diff
 -For DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability,  
--please find the firmware in firmware in the folder of NonStandAloneDevices
+-please find the firmware in the folder of NonStandAloneDevices
 ```
 ```diff
 +if a wrong firmware is flashed in, the device may not run at all,   
