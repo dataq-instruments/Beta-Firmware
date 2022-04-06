@@ -2,8 +2,9 @@
 
 **For DI-2108, DI-2108P, DI-4108 and DI-4208 users: These firmware are for the latest rev of the device with standalone capability**
 
-For older DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, please find the firmware in https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption
-
+```diff
+For DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability, please find the firmware in https://github.com/dataq-instruments/Firmware_Upgrade/tree/main/OlderVersionWithOutStandAloneOption
+```
 1. Download and install the flash program for Windows from https://www.ti.com/tool/LMFLASHPROGRAMMER
 
 2. Remove the USB cable from your device and PC, and remove power supply to the device if it gets power from external power supply
