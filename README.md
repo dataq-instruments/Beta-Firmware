@@ -40,13 +40,13 @@ Please note that if you extract part of the original file to a new file, the abo
 
 10. Firmware log
 
-   -1.35 vs 1.34
+   -1.35
 
     - Fixed leap year error in standalone mode
 
     - Use D5 and D6 as flag in standalone trigger mode (except DI-4730): D5 is low when file is open, D6 is low when trigger is detected. D5 & D6 back to high when file is closed
 
-   -1.36 vs 1.35
+   -1.36
    
     - Longer USB wait time before switching to Ethernet
 
@@ -56,7 +56,7 @@ Please note that if you extract part of the original file to a new file, the abo
 
     - Fixed 2108P stand alone circular mode error
 
-   -1.37 vs 1.36
+   -1.37
 
     - Starts new files in standalone when buffer overran
 
@@ -66,7 +66,7 @@ Please note that if you extract part of the original file to a new file, the abo
 
     - increase precision in ASCII output mode from .3e to .5e
    
-   -1.38 vs 1.37
+   -1.38
    
     - Fixed a range bug in DI-4718's ASCII outputmode
     
@@ -74,6 +74,6 @@ Please note that if you extract part of the original file to a new file, the abo
     
     - DI-2108P now supports CDC mode
    
-   -1.39 vs 1.38
+   -1.39 (beta)
 
     - Adds support for DI-2160 Event recorder
