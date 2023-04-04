@@ -65,3 +65,15 @@ Please note that if you extract part of the original file to a new file, the abo
     - Fix sync error 
 
     - increase precision in ASCII output mode from .3e to .5e
+   
+   -1.38 vs 1.37
+   
+    - Fixed a range bug in DI-4718's ASCII outputmode
+    
+    - Fixed negative trigger level bug
+    
+    - DI-2108P now supports CDC mode
+   
+   -1.39 vs 1.38
+
+    - Adds support for DI-2160 Event recorder
