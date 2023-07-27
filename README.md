@@ -74,6 +74,10 @@ Please note that if you extract part of the original file to a new file, the abo
     
     - DI-2108P now supports CDC mode
    
-   -1.39 (beta)
+   -1.39 
 
     - Adds support for DI-2160 Event recorder
+
+    - Adds LOCAL/UTC timestamp options for CSV files
+
+    - Fixed a range error in DI-4730 stand alone operation
