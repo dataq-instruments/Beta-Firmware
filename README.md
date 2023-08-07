@@ -2,6 +2,8 @@
 
 All released versions of firmware can be found in https://www.dataq.com/support/firmware/. 
 
+Firmware here are unreleased experimental version
+
 There are two groups of firmware here, the lower number is the released version, the higher number is the release candidate
 
 ```diff
