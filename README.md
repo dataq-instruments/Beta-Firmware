@@ -2,12 +2,8 @@
 
 All released versions of firmware can be found in https://www.dataq.com/support/firmware/. 
 
-Firmware here are unreleased experimental version
+Firmware here are unreleased beta revision
 
-```diff
--For DI-2108, DI-2108P, DI-4108 and DI-4208 without standalone capability,  
--please find the firmware in the folder of NonStandAloneDevices
-```
 ```diff
 +if a wrong firmware is flashed in, the device may not run at all,   
 -in that case, choose the correct firmware and reflash it
