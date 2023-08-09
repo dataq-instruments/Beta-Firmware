@@ -36,4 +36,4 @@ Firmware here are unreleased beta revision
 
 
 10. Firmware update log from latest released version
-   -Expands circular file size from 2G to 4G
+   - Expands circular file size from 2G to 4G
