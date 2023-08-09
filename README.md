@@ -31,10 +31,9 @@ Firmware here are unreleased beta revision
    - If a non-standalone device uses a standalone firmware, it will hang in looking for the real time clock and the LED is solid white
    - If A device use the firmware for B device, it will not have the correct gain/scale, or WinDaq won't run at all.
    
-9. Starting firmware rev 1.35, if you use the original Windaq file, you can use a file hex editor such as https://mh-nexus.de/en/hxd/， to look into the area starting from offset of 0x3F2 to find out the reason the file was closed, and offset of 0x43A to find out the reason the file was started, see example below <br/>
+9. Starting firmware rev 1.35, if you use the original Windaq file, you can use a file hex editor such as https://mh-nexus.de/en/hxd/， to look into the area starting from offset of 0x3F2 to find out the reason the file was closed, and offset of 0x43A to find out the reason the file was started, see example below (Please note that if you extract part of the original file to a new file, the above info will not be saved to the new file) <br/>
 ![alt text](https://www.dataq.com/resources/repository/wdq_header.png)
 
-   - Please note that if you extract part of the original file to a new file, the above info will not be saved to the new file
 
 10. Firmware update log from latest released version
 
