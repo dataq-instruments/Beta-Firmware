@@ -36,46 +36,6 @@ Firmware here are unreleased beta revision
 
 Please note that if you extract part of the original file to a new file, the above info will not be saved to the new file
 
-10. Firmware log
+10. Firmware update log from latest released version
 
-   -1.35
 
-    - Fixed leap year error in standalone mode
-
-    - Use D5 and D6 as flag in standalone trigger mode (except DI-4730): D5 is low when file is open, D6 is low when trigger is detected. D5 & D6 back to high when file is closed
-
-   -1.36
-   
-    - Longer USB wait time before switching to Ethernet
-
-    - Wait until power supply stable before recording in standalone
-
-    - Fixed rate error in CDC mode
-
-    - Fixed 2108P stand alone circular mode error
-
-   -1.37
-
-    - Starts new files in standalone when buffer overran
-
-    - Fixed timestamp error for 2108P
-
-    - Fix sync error 
-
-    - increase precision in ASCII output mode from .3e to .5e
-   
-   -1.38
-   
-    - Fixed a range bug in DI-4718's ASCII outputmode
-    
-    - Fixed negative trigger level bug
-    
-    - DI-2108P now supports CDC mode
-   
-   -1.39 
-
-    - Adds support for DI-2160 Event recorder
-
-    - Adds LOCAL/UTC timestamp options for CSV files
-
-    - Fixed a range error in DI-4730 stand alone operation
