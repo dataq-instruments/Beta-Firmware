@@ -36,5 +36,5 @@ Firmware here are unreleased beta revision
 
 
 10. Firmware update log from latest released version
-   - Extends standalone file max size from 2G to 4G
+   - Extends standalone circular/trigger file max size from 2G to 4G
 
