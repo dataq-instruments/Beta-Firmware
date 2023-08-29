@@ -33,7 +33,24 @@ Firmware here are unreleased beta revision
    
 9. Starting firmware rev 1.35, if you use the original Windaq file, you can use a file hex editor such as https://mh-nexus.de/en/hxd/， to look into the area starting from offset of 0x3F2 to find out the reason the file was closed, and offset of 0x43A to find out the reason the file was started, see example below (Please note that if you extract part of the original file to a new file, the above info will not be saved to the new file) <br/>
 ![alt text](https://www.dataq.com/resources/repository/wdq_header.png)
-
+   - Start due to power glitch
+   - Start due to remote control
+   - Start due to push button
+   - Start due to DVR
+   - Start due to unknown reason
+   - Start due to Ethernet command
+   - Start due to power on record
+   - Start due to continue session
+   - Closed due to Ethernet command
+   - Closed due to unknown reason
+   - Closed due to power lost
+   - Closed due to remote control
+   - Closed due to unser termination
+   - Closed due to DVR
+   - Closed due to buffer overrun
+   - Closed due to max file size
+   - Closed due to trigger condition met
+   - 
 
 10. Firmware update log from latest released version
    - Extends standalone circular/trigger file max size from 2G to 4G
