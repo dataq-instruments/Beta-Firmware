@@ -1,4 +1,4 @@
-# Firmware_Upgrade 
+# Beta Firmware for testing purpose only 
 
 All released versions of firmware can be found in https://www.dataq.com/support/firmware/. 
 
